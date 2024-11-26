@@ -1,14 +1,20 @@
 .button{
+  display: flex;
+  align-items: center;
   width: 5.625rem;
   height: 3.25rem;
   border-radius: 8px;
+  border: 0;
   padding: 1.1875rem;
-  display: flex;
-  align-items: center;
   background-color: var(--blue-dark);
   color: var(--gray-100);
 }
 
 .button > span {
   margin-right: 0.25rem;
+}
+
+.button:hover{
+  background-color: var(--blue);
+  cursor: pointer;
 }

@@ -7,6 +7,7 @@ import styles from './App.module.css'
 function App() {
   return (
       <div className={styles.appContainer}>
+        
         <div className={styles.headerConteiner}>
           <Header />
           <div className={styles.inputContainer}>
@@ -14,7 +15,23 @@ function App() {
             <Button />
           </div>
         </div>
+
+        <div className={styles.tasksContainer}>
+          <header>
+            <div className={styles.taskNumberContainer}>
+              <span className={styles.createdTasks}>Tarefas criadas</span>
+              <span className={styles.taskNumber}>0</span>
+            </div>
+
+            <div className={styles.taskNumberContainer}>
+              <span className={styles.concludedTasks}>Concluídas</span>
+              <span className={styles.taskNumber}>0</span>
+            </div>
+          </header>
+        </div>
+        
       </div>
+      
   )
 }
 
