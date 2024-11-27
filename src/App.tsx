@@ -28,6 +28,9 @@ function App() {
               <span className={styles.taskNumber}>0</span>
             </div>
           </header>
+          <ul>
+            <li>Arros</li>
+          </ul>
         </div>
         
       </div>
