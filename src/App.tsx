@@ -4,6 +4,7 @@ import './App.module.css'
 import './global.css'
 import { Input } from "./componetnts/Input.tsx";
 import styles from './App.module.css'
+import { Task } from "./componetnts/Task.tsx";
 function App() {
   return (
       <div className={styles.appContainer}>
@@ -25,11 +26,11 @@ function App() {
 
             <div className={styles.taskNumberContainer}>
               <span className={styles.concludedTasks}>Concluídas</span>
-              <span className={styles.taskNumber}>0</span>
+              <span className={styles.taskNumber}>2 de 5</span>
             </div>
           </header>
           <ul>
-            <li>Arros</li>
+            <Task />
           </ul>
         </div>
         

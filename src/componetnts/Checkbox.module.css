@@ -1,0 +1,15 @@
+.buttonContainer{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.checkIcon{
+  color: var(--blue);
+  border-radius: 100%;
+}
+
+.checkIcon:hover{
+  color: var(--blue-dark);
+  background-color: var(--blue-dark-trasnparent);
+}

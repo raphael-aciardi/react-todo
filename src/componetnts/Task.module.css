@@ -1,0 +1,31 @@
+.task{
+  display: flex;
+  justify-content: space-between;
+  align-content: start;
+  min-height: 4.5rem;
+  padding: 1rem;
+  color: white;
+  background-color: var(--gray-500);
+  border-radius: 8px;
+}
+
+
+
+.trashButton{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.trashIcon:hover{
+  color: var(--danger);
+}
+.content{
+  display: flex;
+  align-items: center;
+  height: auto;
+}
+
+.trashIcon{
+  color: var(--gray-300);
+}
